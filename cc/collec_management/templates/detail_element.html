@@ -1,0 +1,13 @@
+{% extends "main.html" %}
+{% load django_bootstrap5 %}
+
+
+{% block title %} {{ element.title }} {% endblock %}
+{% block content %}
+
+    <p>Description : {{ element.description }}</p>
+    <p>Valeur : {{ element.value }}</p>
+    <p>Quantité : {{ element.quantity }}</p>
+    <p>Date d'Ajout : {{ element.date_ajout }}</p>
+    <p>Collection Associée : N°{{ element.collection.id }} / {{ element.collection }}</p>
+{% endblock %}

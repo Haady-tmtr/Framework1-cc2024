@@ -1,0 +1,13 @@
+{% extends "main.html" %}
+{% load django_bootstrap5 %}
+
+{% block title %} {{ title }} {% endblock %}
+{% block content %}
+
+    <form method="POST" class="form">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        {% bootstrap_button button_type="submit" content="Ajouter une collection" class="btn btn-success" %}
+    </form>
+{% endblock %}
+    

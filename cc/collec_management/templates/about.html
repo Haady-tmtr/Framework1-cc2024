@@ -1,0 +1,27 @@
+{% extends "main.html" %}
+{% load django_bootstrap5 %}
+
+
+{% block title %} Liste des collections  {% endblock %}
+{% block content %}
+    <!--Entête de la page-->
+    <div class="mb-3">
+        <h2><hr>Informations du Projet CC de Frameworks Web 1 </h2>
+
+        <ul><h4>Les Membres</h4>
+            <li>THEAULT Thomas</li>
+            <li>TIEMTORE Mohamed Haady</li>
+            <li>AHMED IZID BIH NEYE Fatimetou Zahra</li>
+            <li>SACKO Bakary</li>
+        </ul>
+
+    </div>
+    <!--Présentation du projet-->
+    <div class="mb-3">
+        <h4>But du projet</h4>
+        <p>Mise en place en groupe d'un site web gérant une base de donnée contenant une collection via Django et Docker.</p>
+        <p>Il faut donc mettre en place l'application, la collection ainsi que les différentes pages nécessaires à l'exploitation de la dite base de donnée.</p>
+        <p>De plus le site sera embellit par l'utilisation de Bootstrap à la fin du projet.</p>
+    </div>
+
+{% endblock %}

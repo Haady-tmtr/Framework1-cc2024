@@ -1,0 +1,936 @@
+[
+    {
+        "model": "collec_management.collec",
+        "pk": 1,
+        "fields": {
+            "title": "Collection 1",
+            "description": "la collection numero 1",
+            "date": "2024-01-01T00:00:00Z",
+            "created_by": 1
+            
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 2,
+        "fields": {
+            "title": "Collection 2",
+            "description": "la collection numero 2",
+            "date": "2024-11-02T19:13:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 3,
+        "fields": {
+            "title": "Collection 3",
+            "description": "la collection numero 3",
+            "date": "2024-11-02T19:18:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 4,
+        "fields": {
+            "title": "Collection 4",
+            "description": "la collection numero 4",
+            "date": "2024-11-02T20:18:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 5,
+        "fields": {
+            "title": "Collection 5",
+            "description": "la collection numero 5",
+            "date": "2024-11-02T20:20:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 6,
+        "fields": {
+            "title": "Collection 6",
+            "description": "la collection numero 6",
+            "date": "2024-11-02T20:20:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 7,
+        "fields": {
+            "title": "Collection 7",
+            "description": "la collection numero 7",
+            "date": "2024-11-02T20:20:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 8,
+        "fields": {
+            "title": "Collection 8",
+            "description": "la collection numero 8",
+            "date": "2024-11-02T20:20:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 9,
+        "fields": {
+            "title": "Collection 9",
+            "description": "la collection numero 9",
+            "date": "2024-11-02T20:20:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 10,
+        "fields": {
+            "title": "Collection 10",
+            "description": "la collection numero 10",
+            "date": "2024-11-02T20:20:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 11,
+        "fields": {
+            "title": "Collection 11",
+            "description": "la collection numero 11",
+            "date": "2024-11-02T20:20:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 12,
+        "fields": {
+            "title": "Collection 12",
+            "description": "la collection numero 12",
+            "date": "2024-11-02T20:20:19Z",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 13,
+        "fields": {
+            "title": "Collection 13",
+            "description": "la collection numero 13",
+            "date": "2024-11-02T20:20:19Z",
+            "created_by": 1
+        }
+    },
+    
+        {
+            "model": "collec_management.element",
+            "pk": 1,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 100.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 1,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 2,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 150.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 1,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 3,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 120.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 1,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 4,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 80.0,
+                "quantity": 12,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 1,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 5,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 200.0,
+                "quantity": 15,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 1,
+                "created_by": 1
+            }
+        },
+    
+    
+        {
+            "model": "collec_management.element",
+            "pk": 6,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 90.0,
+                "quantity": 6,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 2,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 7,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 130.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 2,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 8,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 160.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 2,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 9,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 110.0,
+                "quantity": 7,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 2,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 10,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 140.0,
+                "quantity": 12,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 2,
+                "created_by": 1
+            }
+        },
+    
+    
+        {
+            "model": "collec_management.element",
+            "pk": 11,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 110.0,
+                "quantity": 7,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 3,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 12,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 160.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 3,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 13,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 130.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 3,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 14,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 90.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 3,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 15,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 170.0,
+                "quantity": 12,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 3,
+                "created_by": 1
+            }
+        },
+    
+        {
+            "model": "collec_management.element",
+            "pk": 16,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 120.0,
+                "quantity": 15,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 4,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 17,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 140.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 4,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 18,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 200.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 4,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 19,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 95.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 4,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 20,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 150.0,
+                "quantity": 6,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 4,
+                "created_by": 1
+            }
+        },
+    
+    
+        {
+            "model": "collec_management.element",
+            "pk": 21,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 80.0,
+                "quantity": 12,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 5,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 22,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 110.0,
+                "quantity": 7,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 5,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 23,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 130.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 5,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 24,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 160.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 5,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 25,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 140.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 5,
+                "created_by": 1
+            }
+        },
+    
+    
+        {
+            "model": "collec_management.element",
+            "pk": 26,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 100.0,
+                "quantity": 15,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 6,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 27,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 120.0,
+                "quantity": 6,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 6,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 28,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 150.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 6,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 29,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 160.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 6,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 30,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 200.0,
+                "quantity": 6,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 6,
+                "created_by": 1
+            }
+        },
+    
+    
+        {
+            "model": "collec_management.element",
+            "pk": 31,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 90.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 7,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 32,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 120.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 7,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 33,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 150.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 7,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 34,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 160.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 7,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 35,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 200.0,
+                "quantity": 6,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 7,
+                "created_by": 1
+            }
+        },
+    
+    
+        {
+            "model": "collec_management.element",
+            "pk": 36,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 140.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 8,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 37,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 160.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 8,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 38,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 170.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 8,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 39,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 130.0,
+                "quantity": 7,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 8,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 40,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 180.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 8,
+                "created_by": 1
+            }
+        },
+    
+    
+        {
+            "model": "collec_management.element",
+            "pk": 41,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 120.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 9,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 42,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 130.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 9,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 43,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 140.0,
+                "quantity": 7,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 9,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 44,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 150.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 9,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 45,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 180.0,
+                "quantity": 6,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 9,
+                "created_by": 1
+            }
+        },
+    
+    
+        {
+            "model": "collec_management.element",
+            "pk": 46,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 110.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 10,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 47,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 130.0,
+                "quantity": 6,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 10,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 48,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 140.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 10,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 49,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 160.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 10,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 50,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 150.0,
+                "quantity": 7,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 10,
+                "created_by": 1
+            }
+        },
+    
+    
+        {
+            "model": "collec_management.element",
+            "pk": 51,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 90.0,
+                "quantity": 6,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 11,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 52,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 120.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 11,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 53,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 130.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 11,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 54,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 150.0,
+                "quantity": 7,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 11,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 55,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 180.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 11,
+                "created_by": 1
+            }
+        },
+    
+        {
+            "model": "collec_management.element",
+            "pk": 56,
+            "fields": {
+                "title": "Element 1",
+                "description": "Description de l'élément 1",
+                "value": 120.0,
+                "quantity": 10,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 12,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 57,
+            "fields": {
+                "title": "Element 2",
+                "description": "Description de l'élément 2",
+                "value": 140.0,
+                "quantity": 8,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 12,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 58,
+            "fields": {
+                "title": "Element 3",
+                "description": "Description de l'élément 3",
+                "value": 150.0,
+                "quantity": 7,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 12,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 59,
+            "fields": {
+                "title": "Element 4",
+                "description": "Description de l'élément 4",
+                "value": 160.0,
+                "quantity": 5,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 12,
+                "created_by": 1
+            }
+        },
+        {
+            "model": "collec_management.element",
+            "pk": 60,
+            "fields": {
+                "title": "Element 5",
+                "description": "Description de l'élément 5",
+                "value": 200.0,
+                "quantity": 6,
+                "date_ajout": "2024-01-01T00:00:00Z",
+                "collection": 12,
+                "created_by": 1
+            }
+        }
+    
+    ]
+    

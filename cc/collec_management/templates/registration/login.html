@@ -1,0 +1,20 @@
+{# Load the tag library #}
+{% load django_bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% bootstrap_messages %} 
+
+{% block content %}
+
+<h1>Connexion</h1>
+{% for message in messages %}
+    <p>{{ message }}</p>
+{% endfor %}
+
+<form method="post">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% bootstrap_button button_type="submit" content="Se connecter" value="login" class="btn btn-primary" %}
+</form>
+<!--<p><a href="{% url 'password_reset' %}" class="btn btn-warning">Mot de passe oublié ? </a></p>-->
+{% endblock %}

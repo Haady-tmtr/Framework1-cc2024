@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+{% load django_bootstrap5 %}
+
+
+{% block title %}Voulez-vous vraiment supprimer la collection "{{ collection.title }}" ? {% endblock %}
+{% block content %}
+
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Supprimer</button>
+
+    </form>
+    <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="{% url 'liste_collections' %}">Annuler</a></p>
+
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+{% load django_bootstrap5 %}
+
+
+{% block title %} Liste des collections  {% endblock %}
+{% block content %}
+    <table class="table"> 
+        <thead>
+            <tr>
+                <th scope="col">Titre</th>
+                <th scope="col">Description</th>
+                <th scope="col">Date de création</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for collec in collections %}
+                <tr>
+                    <td>{{ collec.title }}</td>
+                    <td>{{ collec.description }}</td>
+                    <td>{{ collec.date }}</td>
+                    <td>
+                        <a href="{% url 'd_collection' collec.id %}" class="btn btn-primary">Voir les details</a>
+                        <a href="{% url 'delete_collection_confirmation' collec.id %}" class="btn btn-danger">Supprimer</a>
+                        <a href="{% url 'edit_collection' collec.id %}" class="btn btn-warning">Modifier</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accès interdit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #e74c3c;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Accès interdit</h1>
+    <p>Vous n'êtes pas autorisé à effectuer cette action.Vous n'êtes pas à l'origine de la création de la collection.</p>
+    <a href="{% url 'liste_collections' %}">Retour à la page d'accueil</a>
+</body>
+</html>
